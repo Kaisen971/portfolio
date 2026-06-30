@@ -45,6 +45,12 @@ nav .wrap{display:flex;align-items:center;justify-content:space-between;height:6
 .meta .row:last-child{border-bottom:none}
 .meta .k{color:var(--muted)}
 .meta .v{color:var(--ink);font-weight:600;text-align:right}
+.figure{border-top:1px solid var(--hair);background:#fff}
+.figure .wrap{padding:44px 30px 48px}
+.figure .cap{font-family:"JetBrains Mono",monospace;font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--accent);text-align:center}
+.figure h2{font-family:"Fraunces",serif;font-weight:600;font-size:clamp(22px,3vw,28px);text-align:center;margin:8px auto 26px;letter-spacing:-.3px}
+.figure .frame{border:1px solid var(--hair);border-radius:18px;overflow:hidden;background:var(--paper);box-shadow:0 18px 40px rgba(23,19,14,.06)}
+.figure img{display:block;width:100%;height:auto}
 .result{background:var(--paper2);border-top:1px solid var(--hair)}
 .result .wrap{padding:40px 30px;text-align:center}
 .result .i{color:var(--accent);font-family:"JetBrains Mono",monospace;font-size:12px;letter-spacing:.14em;text-transform:uppercase}
@@ -83,9 +89,14 @@ footer a{color:var(--accent);text-decoration:none}
     </div>
   </div>
   <aside class="aside">
-    <div class="thumb"><span>▸ Capture / démo<br>à insérer</span></div>
     <div class="meta"><div class="row"><span class="k">Type</span><span class="v">Agent IA</span></div><div class="row"><span class="k">Stack</span><span class="v">Python · LLM</span></div><div class="row"><span class="k">Statut</span><span class="v">En production</span></div><div class="row"><span class="k">Période</span><span class="v">2025 – 2026</span></div></div>
   </aside>
+</div></section>
+
+<section class="figure"><div class="wrap">
+  <div class="cap">Schéma</div>
+  <h2>Diagramme des interactions</h2>
+  <div class="frame"><img src="diagramme_assistant_ia.png" alt="Diagramme pieuvre des interactions de l'assistant IA multi-agents"></div>
 </div></section>
 
 <section class="result"><div class="wrap">
